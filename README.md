@@ -9,7 +9,7 @@ As an Applied Data Science student, I enjoy the technical side just as much as t
 - 🔭 **Currently Exploring:** Advanced statistical analysis, end-to-end machine learning modeling, and AI applications.
 - 🌱 **Tech Focus:** Data architecture, extracting deep insights, and handling complex datasets.
 - 🤖 **Future Frontier:** Deepening my knowledge in Artificial Intelligence to build smarter, more automated data solutions.
-- 📫 **Let's Connect:** [LinkedIn](https://www.linkedin.com/in/tegar-maulana-bhakti-kusuma-a4774b323/) | **tegarkusumaworkspace@gmail.com**
+- 📫 **Let's Connect:** [LinkedIn](https://www.linkedin.com/in/tegar-kusuma-connect/) | **tegarkusumaworkspace@gmail.com**
 
 ---
 
