@@ -54,5 +54,8 @@ As an Applied Data Science student, I enjoy the technical side just as much as t
 
 ### 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tegarkusuma12&show_icons=true&theme=radium)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tegarkusuma12&layout=compact&theme=radium)
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=tegarkusuma12&show_icons=true&bg_color=0d1117&title_color=fb923c&text_color=ffedd5&icon_color=f97316&border_color=ea580c" alt="Tegar's GitHub Stats" />
+  <br/><br/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tegarkusuma12&layout=compact&bg_color=0d1117&title_color=fb923c&text_color=ffedd5&icon_color=f97316&border_color=ea580c" alt="Tegar's Top Languages" />
+</p>
