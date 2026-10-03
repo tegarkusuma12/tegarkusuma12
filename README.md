@@ -39,16 +39,25 @@ As an Applied Data Science student, I enjoy the technical side just as much as t
 
 ### 📂 Featured Projects
 
-* **🌍 ISPU (Air Pollution Index) Prediction:** 
-  Developed an end-to-end predictive modeling project utilizing a structured RDBMS architecture. Implemented sensor data tables, model registries, and validation logs using PostgreSQL and Supabase.
-* **🥛 Milk Anomaly Detection Dashboard:** 
-  Built and deployed an interactive web application using Streamlit. Applied the Isolation Forest algorithm to detect anomalies in data streams and designed recommendation logic for knowledge workers.
-* **🛒 E-commerce Purchasing Intention Analysis:** 
-  Conducted a comprehensive comparative study between PyCaret (AutoML) and manual Scikit-learn pipelines. Evaluated F1-scores, learning curves, and hyperparameter tuning for classification tasks.
-* **📊 Marketing Campaign Bias Statistical Analysis:** 
-  Applied Z-tests and T-tests to evaluate conversion rates and demographic biases between Referral and PPC marketing campaigns.
-* **⚙️ Hadoop & Sqoop Data Integration:** 
-  Designed a data engineering workflow using Apache Sqoop for incremental data imports from MariaDB to HDFS on a Hadoop cluster.
+* **🌍 ISPU (Air Pollution Index) Prediction:** [GitHub](https://github.com/tegarkusuma12/Web-ISPU) | [Live Demo](https://web-prediksi-ispu.vercel.app/)  
+  Developed an end-to-end predictive modeling project that forecasts air quality for 38 regencies/cities in East Java up to 24 hours ahead. Built an hourly data pipeline with APScheduler pulling from the OpenWeather API into Supabase PostgreSQL, trained an XGBoost multi-output model for 6 pollutants, implemented the Kemenlhk P.14/2020 ISPU calculator, and designed model validation logs. Delivered through a Flask REST API and an interactive Leaflet.js map dashboard with a +0 to +24h time slider.  
+  *Tech: Python · XGBoost · Flask · PostgreSQL · Supabase · APScheduler · Leaflet.js · Chart.js · Docker*
+
+* **🤖 SAKU Smart POS:** [GitHub](https://github.com/tegarkusuma12/saku-smart-pos) | [Live Demo](https://saku-smart-pos-app.vercel.app/)  
+  Built a Point of Sale and business analytics platform for small businesses (UMKM) with an Indonesian-language AI chatbot. Users can record transactions in natural language (e.g. *"bayar listrik 150rb"*) and ask for ML-based restock recommendations. Trained sales forecasting models (XGBoost, Random Forest) validated with TimeSeriesSplit, built a prescriptive analytics module, and developed a LangChain agent with Groq LLM API and 9 custom tools. Backend runs on FastAPI, containerized with Docker.  
+  *Tech: Python · LangChain · Groq · XGBoost · FastAPI · SQLAlchemy · Docker*
+
+* **🎴 REGOKEMON:** [GitHub](https://github.com/Bejochan/pokemon-card-value-analytic-tool)  
+  Contributed to a Pokémon card value analytic tool built on dual-model computer vision: card identification with OpenAI CLIP + FAISS across 20,617 reference cards, physical condition grading with YOLOv8, and a fair-price valuation engine with transaction signals. Designed a daily price tracker using GitHub Actions cron to sync prices from pokemontcg.io to Supabase.  
+  *Tech: PyTorch · OpenAI CLIP · YOLOv8 · FAISS · FastAPI · React · Supabase · GitHub Actions*
+
+* **🏅 End-to-End Medallion Data Pipeline:** [GitHub](https://github.com/tegarkusuma12/medallion-analytics-pipeline)  
+  Built an automated data engineering pipeline implementing the Medallion Architecture (Bronze, Silver, Gold) over simulated ERP and CRM sources, orchestrated with Apache Airflow on Docker. Raw data is cleansed in the Silver layer, modeled into a Kimball Star Schema (1 fact + 4 dimension tables) in the Gold layer, and served through SQL-view Data Marts for sales and customer analytics, including RFM segmentation and Market Basket Analysis.  
+  *Tech: Apache Airflow · Docker · PostgreSQL · Python · Pandas · SQLAlchemy*
+
+* **🥛 Milk Anomaly Detection Dashboard:** [GitHub](https://github.com/tegarkusuma12/Milk-Anomaly-Dashboard) | [Live Demo](https://milk-anomaly-dashboard.vercel.app)  
+  Built and deployed an interactive web application (originally Streamlit, later migrated to Flask) for monitoring milk quality-control data. Applied the Isolation Forest algorithm to detect multivariate anomalies in time-series sensor data and designed rule-based recommendation logic that suggests mitigation actions for knowledge workers.  
+  *Tech: Python · Scikit-Learn · Flask · Pandas*
 
 ---
 
